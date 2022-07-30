@@ -102,7 +102,7 @@ p {
     border: transparent;
     border-radius:0.5ex;
 
-    margin-left: 5.5em;
+    margin-left: 2.5em;
     margin-top: 3em;
     height: 2em;
   }
@@ -138,8 +138,8 @@ p {
    /* background-color: var(--grey-light);*/
    background-repeat: no-repeat;
    height: 320px;
-   width: 100%;
-   
+   width: auto;
+   padding-left: 0.1em;
 }
 
 .hero h1 {
@@ -147,13 +147,15 @@ p {
   font-size: 4rem;
   padding: 20px;
     color: WHITE;
-    margin-left: 1em;
+    margin-left: 0.2em;
+   padding-top: 60px;
+    
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  margin-left: 4.5em;
+  margin-left: 2em;
   
 
     color: WHITE;
@@ -186,8 +188,23 @@ p {
 
 /* Article */
 
+.article_setting{
+  display: flex;
+  
+}
+.article_down{
+  flex-direction: column;
+  border: 1px solid coral;
+margin: 20px;
+padding:20px;}
+
+
 .article {
   margin-bottom: 1rem;
+  display: flex;
+  border: 1px solid coral;
+  padding: 20px;
+
 }
 
 .article__title {
@@ -209,6 +226,7 @@ p {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
+  margin-right: 1.2em;
 }
 
 .article__read-more {
